@@ -1,0 +1,228 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+body {
+  font-family: Inter, sans-serif;
+}
+
+.container .task-content h1,
+.container .task-content h2,
+.container .task-content h3,
+.container .task-content h4,
+.container .task-content h5,
+.container .task-content p,
+.container .task-content a,
+.container .task-content span {
+  font-family: Inter, sans-serif;
+}
+
+.container .task-blog p:empty,
+.container .task-post p:empty,
+.container .task-blog .task-blog--block p:empty {
+  margin-bottom: 0;
+}
+
+.row > * {
+  padding-right: calc(var(--bs-gutter-x) * .8);
+  padding-left: calc(var(--bs-gutter-x) * .8);
+}
+
+.container .task-hero {
+  text-align: center;
+  /*padding-top: 117px;*/
+}
+
+.container .task-hero img {
+  border-radius: 20px;
+  /*background: #5620CD;*/
+  width: 897px;
+  height: 295px;
+}
+
+.container .task-post {
+  max-width: 775px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container .task-post .task-post--author {
+  color: #979797;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 138.023%;
+  padding: 26px 0;
+  margin-bottom: 0;
+}
+
+.container .task-post .task-post--author span {
+  color: #979797;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 138.023%;
+}
+
+.container .task-post .task-post--title {
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 29px;
+}
+
+.container .task-post .task-post--content {
+  color: #939393;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 138.023%;
+}
+
+.container .task-post .task-post--btn {
+  margin: 0 auto;
+  text-align: center;
+  width: 265px;
+  /*height: 78px;*/
+  border-radius: 10px;
+  background: #FF5A3C;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 78px;
+}
+
+.container .task-post .task-post--btn a {
+  color: #FFF;
+  padding: 29px 0 142px;
+}
+
+.container .task-post .task-post--btn:hover {
+  background: rgba(255, 90, 60, 0.62);
+}
+
+.wp-block-image img {
+  width: 780px;
+  height: auto;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+
+.read-more {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  background: #5620CD;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 49px;
+  /*margin: 0 auto;*/
+  color: #FFF;
+  cursor: pointer;
+  margin-bottom: 80px;
+}
+
+.read-more:hover {
+  background: rgba(86, 32, 205, 0.62);
+  color: #FFF;
+}
+
+
+.task-blog {
+  max-width: 897px;
+  margin: 0 auto;
+}
+
+.task-blog--image {
+  width: 897px;
+  height: auto;
+  border-radius: 20px;
+  background: #5620CD;
+  margin: 0 auto;
+}
+
+.task-blog h1 {
+  color: #000;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 81px 0 0px;
+}
+
+.task-blog p {
+  color: #666;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 138.023%;
+}
+
+.task-blog .task-blog--block {
+  margin-bottom: 200px;
+}
+
+.task-blog .task-blog--block img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.task-blog .task-blog--block h3 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.task-blog .task-blog--block h4 {
+  color: #979797;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 138.023%;
+  margin: 16px 0 10px;
+}
+
+.task-blog .task-blog--block h4 span {
+  margin-right: 8px;
+}
+
+.task-blog .task-blog--block svg {
+  vertical-align: bottom;
+}
+
+@media screen and (min-width: 576px) {
+
+}
+
+@media screen and (min-width: 768px) {
+  .read-more {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+}
